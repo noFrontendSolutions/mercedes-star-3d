@@ -1,1 +1,1 @@
-(https://www.dropbox.com/s/ycog8gbt47yfcmb/mercedes-star.png?dl=0)[(https://www.dropbox.com/s/ycog8gbt47yfcmb/mercedes-star.png?dl=0]
+![](https://www.dropbox.com/s/ycog8gbt47yfcmb/mercedes-star.png?raw=1)

@@ -88,7 +88,7 @@ scene.add(plane);
 function animate() {
   requestAnimationFrame(animate);
 
-  //mercedesStar.rotation.y += 0.01;
+  mercedesStar.rotation.y += 0.01;
 
   renderer.render(scene, camera);
 }

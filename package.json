@@ -1,0 +1,23 @@
+{
+  "name": "mercedes-star-3d",
+  "version": "1.0.0",
+  "description": "![](https://www.dropbox.com/s/ycog8gbt47yfcmb/mercedes-star.png?raw=1)",
+  "main": "star.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noFrontendSolutions/mercedes-star-3d.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noFrontendSolutions/mercedes-star-3d/issues"
+  },
+  "homepage": "https://github.com/noFrontendSolutions/mercedes-star-3d#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
