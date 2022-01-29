@@ -29,6 +29,7 @@ const init = () => {
 	//using direction light + adjusting shadow camera
 	const dirLight = new THREE.DirectionalLight(0xffffff, 1);
 	dirLight.position.set(-20, 35, 20);
+	dirLight.intensity = 5
 	scene.add(dirLight);
 	dirLight.castShadow = true;
 	dirLight.shadow.mapSize.width = 2048;
@@ -41,10 +42,10 @@ const init = () => {
 	dirLight.shadow.camera.far = 3500;
 	dirLight.shadow.bias = -0.0001;
 	
-	//creating material for mesh
+	//creating material for the mesh
 	const material = new THREE.MeshPhysicalMaterial({
 	  color: 0xdcdee0,
-	  roughness: 0.2,
+	  roughness: 0.1,
 	  metalness: 0.9,
 	});
 	
@@ -84,8 +85,8 @@ const init = () => {
 	
 	//that's a plane rotated 90° around x-axis and ten units down
 	const geoPlane = new THREE.PlaneBufferGeometry(800, 800, 100, 100);
-	const mat3 = new THREE.MeshPhysicalMaterial({
-	  color: 0xffffff,
+	const mat3 = new THREE.MeshStandardMaterial({
+	  color: 0x000000,
 	});
 	const plane = new THREE.Mesh(geoPlane, mat3);
 	plane.rotation.x = -Math.PI / 2;
