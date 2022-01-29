@@ -7,7 +7,7 @@ I've used **MeshPhysicalMaterial** for the dark *chrome* look.
 
 <br>
 
-You'll find the source code for the **3d-Mercedes Star** in the **star.js** file. 
+You'll find the source code for the **3d-Mercedes-Star** in the **star.js** file. 
 
 <br>
 
