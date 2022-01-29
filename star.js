@@ -84,7 +84,7 @@ const init = () => {
 	scene.add(mercedesStar);
 	
 	//that's a plane rotated 90° around x-axis and ten units down
-	const geoPlane = new THREE.PlaneBufferGeometry(800, 800, 100, 100);
+	const geoPlane = new THREE.PlaneBufferGeometry(window.innerWidth, window.innerHeight, 100, 100);
 	const mat3 = new THREE.MeshStandardMaterial({
 	  color: 0x060606,
 	});
