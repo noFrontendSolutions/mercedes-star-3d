@@ -86,7 +86,7 @@ const init = () => {
 	//that's a plane rotated 90° around x-axis and ten units down
 	const geoPlane = new THREE.PlaneBufferGeometry(800, 800, 100, 100);
 	const mat3 = new THREE.MeshStandardMaterial({
-	  color: 0x000000,
+	  color: 0x060606,
 	});
 	const plane = new THREE.Mesh(geoPlane, mat3);
 	plane.rotation.x = -Math.PI / 2;
